@@ -17,6 +17,20 @@ body {
   border: none;
   border-radius: 10px;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  background-color: #6b64ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.primary-btn:active {
+  background-color: #3c37cc;
 }
 
 /* ==== Header Styles ==== */
@@ -64,7 +78,7 @@ header {
   max-height: 328px;
   align-items: center;
   justify-content: space-between;
-  margin: 92px auto;
+  margin: 108px auto;
 }
 
 .preview-txt {
@@ -79,7 +93,7 @@ header {
 .preview-txt p {
   font-size: 24px;
   color: #25243280;
-  margin: 23px 0px;
+  margin: 108px 0px;
 }
 
 .live-preview img {
@@ -91,7 +105,7 @@ header {
 /* Analytics section */
 
 .analytics {
-  margin: 92px auto;
+  margin: 108px auto;
   max-width: 1140px;
   max-height: 306px;
   text-align: center;
@@ -132,7 +146,7 @@ header {
 .testimony-container {
   max-width: 1140px;
   max-height: 328px;
-  margin: 92px auto;
+  margin: 108px auto;
 }
 
 .testimony-container h2 {
@@ -201,7 +215,7 @@ header {
   align-items: center;
   padding: 150px 71px;
   max-width: 1140px;
-  margin: 92px auto;
+  margin: 108px auto;
   background-color: #fff;
   border-radius: 14px;
   gap: 20px;
@@ -222,7 +236,7 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 1140px;
-  margin: 92px auto;
+  margin: 108px auto;
 }
 
 .get-in-touch-txt {
@@ -253,6 +267,8 @@ header {
   border: none;
   width: 497px;
   border-radius: 10px;
+  outline: 1px solid #d6dded;
+  outline-offset: -1px;
 }
 
 .get-in-touch textarea {
@@ -262,4 +278,50 @@ header {
 
 .get-in-touch button {
   padding: 19px 101px;
+}
+
+/* ==== Footer Section Styles ==== */
+
+footer {
+  background-color: #fff;
+  padding: 200px 0px;
+}
+
+.footer-content {
+  max-width: 531px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.footer-content h1 {
+  font-size: 100px;
+  color: #4e47ff;
+}
+
+.footer-content p {
+  color: #8987a1;
+}
+
+.footer-content nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.footer-content nav a {
+  text-decoration: none;
+  color: #8987a1;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-content nav a:hover {
+  color: #4e47ff;
+  text-decoration: underline;
 }
