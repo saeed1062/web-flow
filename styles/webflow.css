@@ -191,3 +191,26 @@ header {
   font-weight: 400;
   font-size: 14px;
 }
+
+/* Banner Section */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 71px;
+  max-width: 1140px;
+  margin: 92px auto;
+  background-color: #fff;
+  border-radius: 14px;
+  gap: 20px;
+}
+
+.banner h2 {
+  font-size: 50px;
+}
+
+.banner img {
+  border-radius: 48px;
+}
