@@ -1,13 +1,13 @@
-/* General style */
+/* ==== General style ==== */
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Raleway", sans-serif;
 }
 
 body {
   background-color: #f5f8ff;
+  font-family: "Raleway", sans-serif;
 }
 
 .primary-btn {
@@ -19,7 +19,7 @@ body {
   font-weight: 600;
 }
 
-/* Header Styles */
+/* ==== Header Styles ==== */
 
 header {
   width: 100%;
@@ -53,4 +53,77 @@ header {
 .intro h1 {
   font-size: 65px;
   margin-bottom: 37px;
+}
+
+/* ==== Main Section Styles ==== */
+
+/* Preview section */
+.live-preview {
+  display: flex;
+  max-width: 1140px;
+  max-height: 328px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 92px auto;
+}
+
+.preview-txt {
+  max-width: 517px;
+}
+
+.preview-txt h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.preview-txt p {
+  font-size: 24px;
+  color: #252432;
+  opacity: 0.5;
+  margin: 23px 0px;
+}
+
+.live-preview img {
+  border-radius: 48px;
+  max-width: 403px;
+  max-height: 328px;
+}
+
+/* Analytics section */
+
+.analytics {
+  margin: 92px auto;
+  max-width: 1140px;
+  max-height: 306px;
+  text-align: center;
+  background-color: #4e47ff1a;
+  padding: 80px 50px;
+  border-radius: 24px;
+}
+
+.analytics h2 {
+  font-size: 38px;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.analytics-count {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analytics-count h1,
+.analytics-count p {
+  font-family: "Inter", sans-serif;
+}
+
+.analytics-count h1 {
+  font-size: 80px;
+  color: #4e47ff;
+}
+
+.analytics-count p {
+  font-size: 20px;
+  color: #000;
+  opacity: 0.5;
 }
