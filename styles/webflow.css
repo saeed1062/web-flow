@@ -214,3 +214,52 @@ header {
 .banner img {
   border-radius: 48px;
 }
+
+/* Get in Touch Section */
+
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 92px auto;
+}
+
+.get-in-touch-txt {
+  max-width: 528px;
+}
+
+.get-in-touch-txt h1 {
+  font-size: 97px;
+}
+
+.get-in-touch form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.get-in-touch form label {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.get-in-touch input[type="email"],
+.get-in-touch input[type="text"],
+.get-in-touch textarea {
+  padding: 20px 32px;
+  border: none;
+  width: 497px;
+  border-radius: 10px;
+}
+
+.get-in-touch textarea {
+  resize: none;
+  height: 135px;
+}
+
+.get-in-touch button {
+  padding: 19px 101px;
+}
